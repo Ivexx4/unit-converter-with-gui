@@ -3,14 +3,13 @@
 A flexible and extensible unit conversion library with a graphical user interface. This project provides a framework for converting between different units of measurement, with support for temperature, length, weight, and volume conversions.
 
 ## Features
-
 - **Modular Design**: Base converter class that can be extended for any unit type.
 - **Temperature Conversion**: Convert between multiple temperature scales (Celsius, Fahrenheit, Kelvin, Rankine, Réaumur etc...)
 - **Length Conversion**: Convert between multiple length scales (meters, feet, miles, kilometers, inches, yards, nautical miles etc...)
 - **Weight Conversion**: Convert between multiple weight scales (grams, kilograms, pounds, ounces, stones, metric tons etc...)
-- **Volume Conversion**: Convert between multiple volume scales (liters, gallons, cups, pints, quarts, fluid ounces etc...)
-- **Area Conversion**: Convert between multiple area scales (square meters, square feet, square miles, square kilometers, square inches, square yards, square nautical miles etc...)
-- **Volume Conversion**: Convert between multiple volume scales (cubic meters, cubic feet, cubic miles, cubic kilometers, cubic inches, cubic yards, cubic nautical miles etc...)
+- **Volume Conversion**: Convert between multiple volume scales (liters, gallons, cups, pints, quarts, fluid ounces, cubic meters, cubic feet etc...)
+- **Area Conversion**: Convert between multiple area scales (square meters, square feet, square miles, square kilometers, acres, hectares etc...)
+- **Speed Conversion**: Convert between multiple speed units (meters per second, kilometers per hour, miles per hour, knots, mach, speed of light etc...)
 
 - **User-friendly GUI**: Tkinter-based interface with:
   - Input validation

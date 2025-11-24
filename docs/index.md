@@ -79,7 +79,6 @@ The project supports the following conversion types:
 The project consists of two main modules:
 
 - [Base Class](base_class.md) - Documentation for the core `Converter` class
-- [Converters](converters.md) - Documentation for specific converter implementations
 
 
 ## Usage Examples
@@ -158,10 +157,7 @@ result = Volume.convert(1, "m³", "L")
 print(f"1 m³ = {result:.2f} L")  # Output: 1 m³ = 1000.00 L
 ```
 
-## Extending the Converter
 
-The Unit Converter already includes converters for Temperature, Length, Weight, and Volume. However, it is designed to be easily extended with additional unit types (such as Area, Pressure, Energy, etc.). See the following documentation for details:
-[Extending the Converter](converters.md#best-practices-for-creating-converters)
 
 
 ## License
